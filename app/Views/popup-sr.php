@@ -6,7 +6,6 @@
   </head>
   <body>
     <div class="container mt-1">
-      <?php include 'navbar.php';?>
       <br>
 
       <form action="<?php echo base_url('/sr/index/y');?>" name="sr_con" id="sr_con" method="post" accept-charset="utf-8">
