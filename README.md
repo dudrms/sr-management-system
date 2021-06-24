@@ -9,7 +9,7 @@ SRMS is a simple web-based program to manage many Service-Request about IT-Syste
 - maria db ( db schema is in the source )
 - php 7
 
-## Used JS,CSS
+## Used components
 - jquery
 - jquery ui
 - bootstrap
