@@ -70,7 +70,7 @@
           <?php foreach($s2 as $s): ?>
 
           <?php if($s['type1_desc']==""): ?>
-            <tr class="bg-info">
+            <tr class="table-info">
              <td width="20%"><b><?php echo "총계 [".$s['total']."] "; ?></b></td>
              <td><b><?php echo $s['step1']; ?></b></td>
              <td><b><?php echo $s['step2']; ?></b></td>
@@ -117,7 +117,7 @@
           <?php if($s3): ?>
           <?php foreach($s3 as $s): ?>
             <?php if($s['type1_desc']==""): ?>
-            <tr class="bg-info">
+            <tr class="table-info">
                <td width="20%"><b><?php echo "총계"; ?></b></td>
                <td><b><?php echo $s['step1']; ?></b></td>
                <td><b><?php echo $s['step2']; ?></b></td>
@@ -189,7 +189,7 @@
           <?php if($s5s): ?>
           <?php foreach($s5s as $s): ?>
           <?php if($s['type1_desc']==""): ?>
-            <tr class="bg-info">
+            <tr class="table-info">
              <td width="20%"><b><?php echo "총계"; ?></b></td>
              <td><b><?php echo $s['WT01']; ?></b></td>
              <td><b><?php echo $s['WT02']; ?></b></td>
@@ -267,7 +267,7 @@
           <?php foreach($s6 as $s): ?>
           
           <?php if($s['manager']=="" && $s['type1_desc']==""): ?>
-            <tr class="bg-info">
+            <tr class="table-info">
               
              <td width="20%"><b><?php echo "총계"; ?></b></td>
              <td width="20%"></td>

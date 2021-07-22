@@ -129,7 +129,7 @@
             <?php foreach($s1s as $s): ?>
 
             <?php if($s['yyyy']==""): ?>
-              <tr class="bg-info">
+              <tr class="table-info">
                 <td width="20%"><b><?php echo "총계"; ?></b></td>
               <td><b><?php echo $s['previous_year_recv']; ?></b></td>
               <td><b><?php echo $s['this_year_recv']; ?></b></td>
