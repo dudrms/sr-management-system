@@ -5,35 +5,36 @@
     <title>SR Management</title>
   </head>
   <body>
- <div class="container">
+  <div class="container mt-1">
     <br>
     <?= \Config\Services::validation()->listErrors(); ?>
  
     <span class="d-none alert alert-success mb-3" id="res_message"></span>
- 
-    <div class="row">
-      <div class="col-md-9">
+
         <form action="<?php echo base_url('/login/in');?>" name="user" id="user" method="post" accept-charset="utf-8">
  
-          <div class="form-group">
-            <label for="formGroupExampleInput">유지보수 작업기록관리</label>
-            <input type="text" name="username" class="form-control" id="formGroupExampleInput" placeholder="사용자 이름을 입력해 주세요">
-             
+        <div class="row">
+          <div class="col-sm-auto">
+            <label for="formGroupExampleInput">피엠씨텍 유지보수 작업기록관리</label>
           </div> 
+        </div> 
+        <div class="row">
+          <div class="col-sm-300">
+            <input type="text" name="username" class="form-control" id="formGroupExampleInput" placeholder="사용자 이름을 입력해 주세요">
+          </div> 
+        </div> 
 
-          <?php if($msg['message'] != '') { ?>
-          <span><?php echo $msg['message'];?></span>
-          <?php } ?>
+        <?php if($msg['message'] != '') { ?>
+        <span><?php echo $msg['message'];?></span>
+        <?php } ?>
  
-          <div class="form-group">
+        <div class="row">
+          <div class="col-sm-auto">
            <button type="submit" id="send_form" class="btn btn-success">시작</button>
           </div>
-          
+        </div>
+
         </form>
-      </div>
- 
-    </div>
-  
 </div>
 
 </body>
