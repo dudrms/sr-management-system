@@ -104,6 +104,7 @@
 <script>
   $(document).ready( function () {
       $('#sr').DataTable({
+        stateSave: true,
         "order": [[ 0, "desc" ]]
       });
   } );

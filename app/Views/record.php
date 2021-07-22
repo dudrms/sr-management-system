@@ -86,6 +86,7 @@
 <script>
   $(document).ready( function () {
       $('#record').DataTable({
+        stateSave: true,
         "order": [[ 0, "desc" ]],
 		'iDisplayLength': 12,
       });

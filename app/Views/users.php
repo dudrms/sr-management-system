@@ -48,6 +48,7 @@
 
   $(document).ready( function () {
       $('#users').DataTable({
+        stateSave: true,
         "order": [[ 0, "asc" ]],
         'iDisplayLength': 12,
         dom: 'Blfrtip',
