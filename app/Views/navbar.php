@@ -32,6 +32,9 @@
 			<li class="nav-item">
 			  <a class="nav-link" href="/sr/sr/refer3">시스템정보</a>
 			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="/sr/srdownload">SR다운/Quick조회</a>
+			</li>
             <!--
 			<li class="nav-item dropdown">
 			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
