@@ -268,16 +268,25 @@ class Sr extends Controller
 
     public function refer1()
     {
+        $session = session();
+        helper(['form', 'url']);
+
         return view('/refer1');
     }
 
     public function refer2()
     {
+        $session = session();
+        helper(['form', 'url']);
+
         return view('/refer2');
     }
 
     public function refer3()
     {
+        $session = session();
+        helper(['form', 'url']);
+        
         return view('/refer3');
     }
 
